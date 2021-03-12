@@ -1,5 +1,9 @@
 package ru.skillbranch.devintensive.utils
 
+import android.content.Context
+import android.view.View
+import android.view.inputmethod.InputMethodManager
+
 object Utils {
     private val dictionary = mapOf(
         "а" to "a", "A" to "A",
@@ -73,4 +77,5 @@ object Utils {
             else -> "$firstLetter$secondLetter"
         }
     }
+
 }
